@@ -26,7 +26,7 @@ def post_files(url, files, verbose=False):
             sub_files = join_paths(file, sub_files)
             post_files(url, sub_files)
         elif verbose:
-            print(f"Invalid file path: {file_path}")
+            print(f"Invalid file path: {file}")
 
 
 def input_parse():
